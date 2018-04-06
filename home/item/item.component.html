@@ -1,0 +1,13 @@
+<div class="item">
+  <div class="image">
+    <img [src]="item?.url" (click)="viewImage()">
+  </div>
+  <div class="description">
+    <div class="title" (click)="viewImage()">
+      {{ item?.title }}
+    </div>
+    <div class="created-date">
+      {{ item?.created_at | date: 'full' }}
+    </div>
+  </div>
+</div>

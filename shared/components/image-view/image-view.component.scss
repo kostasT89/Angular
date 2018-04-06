@@ -1,0 +1,16 @@
+.image-container {
+  min-width: 400px;
+  position: relative;
+
+  .btn-close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: white;
+    cursor: pointer;
+  }
+
+  img {
+    width: 100%;
+  }
+}

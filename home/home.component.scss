@@ -1,0 +1,39 @@
+.home-page {
+  height: 100vh;
+  padding: 30px;
+
+  mat-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .form-group {
+      label {
+        font-size: 18px;
+        font-weight: bold;
+      }
+
+      .input-container {
+        display: flex;
+
+        input {
+          margin-right: 5px;
+        }
+
+        button {
+          width: 50px;
+          text-align: center;
+        }
+      }
+    }
+
+    .number-of-items {
+      font-style: italic;
+      padding: 20px
+    }
+
+    .items-container {
+      overflow: auto;
+    }
+  }
+}
